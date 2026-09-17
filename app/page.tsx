@@ -1,4 +1,3 @@
-import Hero from "@/components/hero";
 import AboutSection from "@/components/about-section";
 import JobList from "@/components/job-list";
 import CommunityAccordion from "@/components/community-accordion";
@@ -9,7 +8,6 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <Hero />
         <AboutSection />
         <JobList />
         <CommunityAccordion />

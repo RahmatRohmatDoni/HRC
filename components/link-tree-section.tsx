@@ -163,17 +163,17 @@ export default function LinkTreeSection() {
           className="mb-10"
         >
           <motion.a
-            href="https://api.whatsapp.com/send?phone=6281356189944"
+            href="https://t.me/flowerdiee"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="group flex items-center gap-4 rounded-2xl border border-emerald-500/20 bg-gradient-to-r from-emerald-500/10 to-green-500/5 p-5 transition-all hover:border-emerald-500/30 hover:shadow-lg hover:shadow-emerald-500/5"
+            className="group flex items-center gap-4 rounded-2xl border border-blue-500/20 bg-gradient-to-r from-blue-500/10 to-sky-500/5 p-5 transition-all hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5"
           >
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-emerald-500 p-3 shadow-lg shadow-emerald-500/20">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-500 p-3 shadow-lg shadow-blue-500/20">
               <Image
-                src="/wa.png"
-                alt="WhatsApp"
+                src="/telegram.png"
+                alt="Telegram"
                 width={28}
                 height={28}
                 className="object-contain"
@@ -181,11 +181,11 @@ export default function LinkTreeSection() {
             </div>
             <div className="flex-1">
               <p className="text-lg font-bold text-white">Chat Owner Langsung</p>
-              <p className="text-sm text-emerald-300/70">
-                Tanya apa saja lewat WhatsApp — fast response!
+              <p className="text-sm text-blue-300/70">
+                Tanya apa saja lewat Telegram — fast response!
               </p>
             </div>
-            <ArrowUpRight className="h-5 w-5 shrink-0 text-emerald-500/50 transition-all group-hover:text-emerald-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            <ArrowUpRight className="h-5 w-5 shrink-0 text-blue-500/50 transition-all group-hover:text-blue-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </motion.a>
         </motion.div>
 

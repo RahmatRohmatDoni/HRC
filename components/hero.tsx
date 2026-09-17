@@ -46,10 +46,10 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={fadeUp}
-          className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-indigo-300 backdrop-blur-sm"
+          className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-indigo-200 backdrop-blur-sm"
         >
           <Users className="h-4 w-4" />
-          Ekosistem Freelance Digital #1
+          Belajar &bull; Praktik &bull; Menghasilkan
         </motion.div>
 
         <motion.h1
@@ -59,9 +59,9 @@ export default function Hero() {
           variants={fadeUp}
           className="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl"
         >
-          Bangun Karir Digital &amp; Freelance Anda Bersama{" "}
-          <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-            Hanra Community
+          Akses Bisnis Digital.<br />
+          <span className="bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
+            Langsung Praktik.
           </span>
         </motion.h1>
 
@@ -72,8 +72,8 @@ export default function Hero() {
           variants={fadeUp}
           className="mx-auto mt-6 max-w-2xl text-lg text-slate-300 sm:text-xl"
         >
-          Ekosistem lengkap dengan 12+ peluang bisnis digital, fasilitas
-          edukasi, dan komunitas suportif.
+          Untuk pelajar, mahasiswa, dan IRT<br />
+          yang ingin punya penghasilan sampingan.
         </motion.p>
 
         <motion.div
@@ -85,7 +85,7 @@ export default function Hero() {
         >
           <Button
             size="lg"
-            className="bg-indigo-600 text-white hover:bg-indigo-700 cursor-pointer"
+            className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white hover:from-purple-600 hover:to-indigo-600 border-0 cursor-pointer px-8 rounded-full shadow-lg shadow-purple-500/25"
             onClick={() =>
               document
                 .getElementById("jobs")
@@ -98,7 +98,7 @@ export default function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="border-white/20 bg-white/5 text-white backdrop-blur-sm hover:bg-white/10 cursor-pointer"
+            className="border-indigo-400/50 bg-transparent text-white hover:bg-indigo-500/10 cursor-pointer px-8 rounded-full"
             onClick={() =>
               document
                 .getElementById("links")

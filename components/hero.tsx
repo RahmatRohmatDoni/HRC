@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { ArrowRight, Users, MonitorPlay, ClipboardCheck, TrendingUp, ChevronDown } from "lucide-react";
+import { ArrowRight, Users, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const fadeUp = {
@@ -93,11 +93,11 @@ export default function Hero() {
             className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white hover:from-purple-600 hover:to-indigo-600 border-0 cursor-pointer px-8 rounded-full shadow-lg shadow-purple-500/25"
             onClick={() =>
               document
-                .getElementById("links")
+                .getElementById("jobs")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            Mulai Eksplorasi
+            Lihat Peluang
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button
@@ -106,58 +106,33 @@ export default function Hero() {
             className="border-indigo-400/50 bg-transparent text-white hover:bg-indigo-500/10 cursor-pointer px-8 rounded-full"
             onClick={() =>
               document
-                .getElementById("jobs")
+                .getElementById("links")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            Lihat Program
+            Gabung Sekarang
           </Button>
-        </motion.div>
-
-        {/* 3 Cards */}
-        <motion.div
-          custom={5}
-          initial="hidden"
-          animate="visible"
-          variants={fadeUp}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-4xl mb-16 px-4"
-        >
-          {[
-            { title: "Belajar Skill", icon: MonitorPlay },
-            { title: "Praktik Nyata", icon: ClipboardCheck },
-            { title: "Peluang\nSampingan", icon: TrendingUp },
-          ].map((card, i) => {
-            const Icon = card.icon;
-            return (
-              <div key={i} className="flex flex-col items-center justify-center p-8 rounded-[2rem] bg-indigo-950/40 border border-indigo-500/20 shadow-lg shadow-black/20 hover:bg-indigo-900/40 transition-colors">
-                <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-b from-indigo-500/20 to-transparent mb-6">
-                  <Icon className="h-10 w-10 text-purple-400" />
-                </div>
-                <h3 className="font-bold text-white text-lg text-center whitespace-pre-line">{card.title}</h3>
-                <div className="h-1 w-8 bg-purple-500 rounded-full mt-4" />
-              </div>
-            );
-          })}
         </motion.div>
 
         {/* Scroll Indicator */}
         <motion.div
-          custom={6}
+          custom={5}
           initial="hidden"
           animate="visible"
           variants={fadeUp}
           className="flex flex-col items-center gap-3 text-slate-400 cursor-pointer animate-bounce mt-4"
           onClick={() =>
             document
-              .getElementById("jobs")
+              .getElementById("tentang")
               ?.scrollIntoView({ behavior: "smooth" })
           }
         >
           <div className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 bg-slate-900/50">
              <ChevronDown className="h-5 w-5" />
           </div>
-          <span className="text-sm">Scroll untuk lihat peluang</span>
+          <span className="text-sm">Scroll untuk baca selengkapnya</span>
         </motion.div>
+
       </div>
     </section>
   );

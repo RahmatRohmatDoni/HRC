@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Hanra Community — Ekosistem Freelance Digital",
   description:
     "Bangun karir digital & freelance Anda bersama Hanra Community. 12+ peluang bisnis digital, fasilitas edukasi, dan komunitas suportif.",
+  icons: {
+    icon: "/HRC.jpg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

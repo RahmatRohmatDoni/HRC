@@ -1,4 +1,5 @@
-import AboutSection from "@/components/about-section";
+import Hero from "@/components/hero";
+
 import JobList from "@/components/job-list";
 import CommunityAccordion from "@/components/community-accordion";
 import LinkTreeSection from "@/components/link-tree-section";
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <AboutSection />
+        <Hero />
         <JobList />
         <CommunityAccordion />
         <LinkTreeSection />

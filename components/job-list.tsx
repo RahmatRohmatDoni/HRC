@@ -105,7 +105,7 @@ const jobs = [
     title: "Pengembang Komunitas",
     icon: Users,
     penjelasan: "Program kemitraan: jual hak akses keanggotaan HRC ke orang yang ingin belajar cari cuan.",
-    caraKerja: "Jual akses (Rp10-60rb), pembeli bayar ke kamu, transfer Rp5rb ke admin untuk input sistem.",
+    caraKerja: "Kalian dapat menjadi reseller HRC atau bisa menjual seluruh akses HRC ke orang lain.",
     keuntungan: "Profit super tinggi (mendekati 100%) dengan modal input hanya Rp5.000 per member baru.",
   },
 ];

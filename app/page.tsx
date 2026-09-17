@@ -1,34 +1,27 @@
 import Hero from "@/components/hero";
+import AboutSection from "@/components/about-section";
 import JobList from "@/components/job-list";
 import CommunityAccordion from "@/components/community-accordion";
-import FacilitiesMarquee from "@/components/facilities-marquee";
 import LinkTreeSection from "@/components/link-tree-section";
+import FacilitiesMarquee from "@/components/facilities-marquee";
 
 export default function Home() {
   return (
-    <main className="flex-1">
-      {/* Hero Section */}
-      <Hero />
+    <div className="flex min-h-screen flex-col">
+      <main className="flex-1">
+        <Hero />
+        <AboutSection />
+        <JobList />
+        <CommunityAccordion />
+        <LinkTreeSection />
+        <FacilitiesMarquee />
+      </main>
 
-      {/* 12+ Job Opportunities */}
-      <JobList />
-
-      {/* Community Groups */}
-      <CommunityAccordion />
-
-      {/* Quick Links (Linktree-style) */}
-      <LinkTreeSection />
-
-      {/* Facilities Marquee */}
-      <FacilitiesMarquee />
-
-      {/* Footer */}
-      <footer className="border-t border-white/10 bg-slate-950 py-8 px-6 text-center text-sm text-slate-400">
-        <p>
-          &copy; {new Date().getFullYear()} Hanra Community. Semua hak
-          dilindungi.
-        </p>
+      <footer className="border-t border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-slate-950 py-8 px-6 text-center text-sm text-slate-500 dark:text-slate-400">
+        <div className="mx-auto max-w-6xl">
+          <p>© {new Date().getFullYear()} Hanra Community. Hak Cipta Dilindungi.</p>
+        </div>
       </footer>
-    </main>
+    </div>
   );
 }

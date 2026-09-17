@@ -9,104 +9,104 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import {
-  Users,
-  BookOpen,
-  Zap,
-  Wifi,
-  ShoppingBag,
-  BarChart3,
   Smartphone,
-  Video,
+  BarChart3,
+  BookOpen,
+  GraduationCap,
+  Wifi,
   Palette,
+  Video,
+  Zap,
+  ShoppingBag,
   ShieldCheck,
   Megaphone,
-  GraduationCap,
+  Users,
 } from "lucide-react";
 
 const jobs = [
   {
-    title: "Community Developer",
-    icon: Users,
-    caraKerja: "Penghubung komunitas",
-    keuntungan: "Komisi member baru",
-    tantangan: "Butuh soft skill",
-  },
-  {
-    title: "Reseller Ebook",
-    icon: BookOpen,
-    caraKerja: "Jual ulang PDF",
-    keuntungan: "Margin fleksibel",
-    tantangan: "Persaingan tinggi",
-  },
-  {
-    title: "Job Buzzer",
-    icon: Zap,
-    caraKerja: "Micro-tasking sosmed",
-    keuntungan: "Santai & cepat",
-    tantangan: "Bayaran per tugas kecil",
-  },
-  {
-    title: "Agen Kuota & Top Up",
-    icon: Wifi,
-    caraKerja: "Jual pulsa/game",
-    keuntungan: "Repeat order tinggi",
-    tantangan: "Persaingan ketat",
-  },
-  {
-    title: "Olshop & Preloved",
-    icon: ShoppingBag,
-    caraKerja: "Jual barang bekas/baru",
-    keuntungan: "Ubah barang jadi uang",
-    tantangan: "Butuh foto & kejujuran kondisi",
+    title: "Reseller APK Premium",
+    icon: Smartphone,
+    penjelasan: "Jual akses aplikasi berbayar (Canva Pro, Netflix, dll) resmi dari supplier HRC.",
+    caraKerja: "Promosikan akun, beli dari supplier saat ada pesanan, lalu berikan data login ke pelanggan.",
+    keuntungan: "Margin selisih harga jual & modal. Permintaan sangat tinggi di kalangan anak muda.",
   },
   {
     title: "Agen Kebsos",
     icon: BarChart3,
-    caraKerja: "Jasa SMM/Followers",
-    keuntungan: "Beli grosir jual ecer",
-    tantangan: "Klien kritis soal kualitas akun",
+    penjelasan: "Sediakan jasa tambah followers, likes, & views untuk Instagram, TikTok, dll.",
+    caraKerja: "Jual dengan harga di atas grosir, terima pesanan, dan input ke sistem otomatis HRC.",
+    keuntungan: "Margin untung bisa 100-200%. Sangat dicari pengusaha online untuk bangun social proof.",
   },
   {
-    title: "Reseller APK Premium",
-    icon: Smartphone,
-    caraKerja: "Jual langganan Canva/Netflix",
-    keuntungan: "Demand tinggi",
-    tantangan: "Repot kelola garansi",
+    title: "Reseller Ebook",
+    icon: BookOpen,
+    penjelasan: "Akses 43 juta file PDF/Ebook berbagai tema untuk dijual kembali tanpa stok fisik.",
+    caraKerja: "Download ebook dari cloud HRC, paketkan, dan promosikan di marketplace/sosmed.",
+    keuntungan: "Keuntungan 100% milikmu, tanpa biaya ongkir, dan produk bisa dijual berkali-kali.",
   },
   {
-    title: "Reseller Jasa Editing",
-    icon: Video,
-    caraKerja: "Dropship jasa video",
-    keuntungan: "Tanpa skill teknis",
-    tantangan: "Butuh komunikasi brief akurat",
+    title: "Reseller Produk Digital",
+    icon: GraduationCap,
+    penjelasan: "Akses 15.000+ produk digital & 160 kelas bisnis siap jual (PLR/Resell Rights).",
+    caraKerja: "Pilih produk, tentukan harga sendiri, promosikan, lalu kirim link akses ke pembeli.",
+    keuntungan: "Stok tak terbatas, untung 100%, dan bebas dijual eceran maupun paketan.",
   },
   {
-    title: "Jasa Editing Soft & Formal",
+    title: "Agen Kuota & Top Up",
+    icon: Wifi,
+    penjelasan: "Bisnis pulsa, kuota, & top up game dengan harga modal distributor tangan pertama.",
+    caraKerja: "Promosikan list harga ke teman, terima uang, dan order instan via sistem HRC.",
+    keuntungan: "Repeat order sangat tinggi karena produk merupakan kebutuhan pokok digital sehari-hari.",
+  },
+  {
+    title: "Editing Formal",
     icon: Palette,
-    caraKerja: "Desain visual/QRIS",
-    keuntungan: "Value tinggi",
-    tantangan: "Butuh skill Canva/Photoshop",
+    penjelasan: "Jasa desain & edit dokumen, presentasi, atau proposal kelas profesional (High-ticket).",
+    caraKerja: "Pelajari modul desain HRC, buat portofolio, lalu tawarkan jasa ke UKM/instansi.",
+    keuntungan: "Dibayar tinggi per proyek. Bisa hasilkan ratusan ribu hingga jutaan rupiah sekali closing.",
+  },
+  {
+    title: "Content Creator TikTok",
+    icon: Video,
+    penjelasan: "Job performance-based: dibayar berdasarkan jumlah like organik video promosimu di TikTok.",
+    caraKerja: "Buat & upload video original HRC, tunggu 3 hari untuk interaksi organik, lapor admin untuk klaim.",
+    keuntungan: "Tanpa batas maksimal gaji. Akun TikTok dengan 0 followers pun tetap bisa menghasilkan uang.",
+  },
+  {
+    title: "Reseller Buzzer",
+    icon: Zap,
+    penjelasan: "Job meramaikan media sosial klien HRC (like/komen) via sistem pendaftaran bot yang adil.",
+    caraKerja: "Ambil tugas dari bot Telegram, kerjakan instruksi (like/komen), lalu lapor untuk klaim saldo.",
+    keuntungan: "Minimal penarikan sangat rendah (Rp2.000). Tugasnya ringan, cepat, dan 100% dari HP.",
+  },
+  {
+    title: "Olshop HRC",
+    icon: ShoppingBag,
+    penjelasan: "Platform jual beli produk fisik/digital internal khusus untuk >45.000 member HRC.",
+    caraKerja: "Posting barang jualan di grup, arahkan transfer ke Rekber Admin, kirim barang, dana cair.",
+    keuntungan: "Promosi gratis ke puluhan ribu target pasar dan transaksi sangat aman dengan sistem Rekber.",
   },
   {
     title: "Rekber & Jual Beli Akun",
     icon: ShieldCheck,
-    caraKerja: "Pihak ketiga/flipping akun",
-    keuntungan: "Dapat fee aman",
-    tantangan: "Butuh trust tinggi",
+    penjelasan: "Jasa perantara (Rekber) transaksi aman dan jual beli aset digital (akun game/sosmed).",
+    caraKerja: "Jual beli akun dari supplier, atau gunakan admin Rekber sebagai penengah pembayaran pihak ke-3.",
+    keuntungan: "Transaksi aman dari penipu (uang ditahan admin). Penjual tenang, pembeli nyaman berbelanja.",
   },
   {
     title: "Referral Premium",
     icon: Megaphone,
-    caraKerja: "Arahkan buyer ke owner",
-    keuntungan: "Komisi cair tanpa ribet closing",
-    tantangan: "Butuh channel promosi luas",
+    penjelasan: "Program afiliasi ringan: kamu hanya mencari calon member tanpa perlu repot presentasi.",
+    caraKerja: "Promosikan testimoni, arahkan calon pembeli chat Owner HRC, dan lapor saat closing.",
+    keuntungan: "Kerja sangat ringan, dan kamu otomatis dapat komisi Rp20.000 per member yang bergabung.",
   },
   {
-    title: "Reseller Produk Digital & Kelas Bisnis",
-    icon: GraduationCap,
-    caraKerja: "Jual ulang template/kelas",
-    keuntungan: "Stok unlimited",
-    tantangan: "Harus pandai riset pasar",
+    title: "Pengembang Komunitas",
+    icon: Users,
+    penjelasan: "Program kemitraan: jual hak akses keanggotaan HRC ke orang yang ingin belajar cari cuan.",
+    caraKerja: "Jual akses (Rp10-60rb), pembeli bayar ke kamu, transfer Rp5rb ke admin untuk input sistem.",
+    keuntungan: "Profit super tinggi (mendekati 100%) dengan modal input hanya Rp5.000 per member baru.",
   },
 ];
 
@@ -159,31 +159,37 @@ export default function JobList() {
             const Icon = job.icon;
             return (
               <motion.div key={job.title} variants={cardVariants}>
-                <Card className="h-full transition-shadow hover:shadow-lg border-slate-200 dark:border-slate-800">
+                <Card className="h-full transition-shadow hover:shadow-lg border-slate-200 dark:border-slate-800 flex flex-col">
                   <CardHeader className="pb-3">
                     <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-100 text-indigo-600 dark:bg-indigo-950 dark:text-indigo-400">
                       <Icon className="h-5 w-5" />
                     </div>
-                    <CardTitle className="text-lg">{job.title}</CardTitle>
-                    <CardDescription>{job.caraKerja}</CardDescription>
+                    <CardTitle className="text-lg leading-tight">{job.title}</CardTitle>
+                    <CardDescription className="mt-2 text-slate-600 dark:text-slate-400">
+                      {job.penjelasan}
+                    </CardDescription>
                   </CardHeader>
-                  <CardContent className="space-y-2 text-sm">
-                    <div className="flex items-start gap-2">
-                      <span className="mt-0.5 inline-block h-2 w-2 shrink-0 rounded-full bg-green-500" />
-                      <span>
-                        <strong className="text-green-700 dark:text-green-400">
-                          Keuntungan:
-                        </strong>{" "}
-                        {job.keuntungan}
+                  <CardContent className="space-y-4 text-sm mt-auto">
+                    <div className="flex items-start gap-2 bg-blue-50 dark:bg-blue-950/30 p-3 rounded-lg">
+                      <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900 text-[10px] font-bold text-blue-600 dark:text-blue-300">
+                        1
+                      </span>
+                      <span className="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        <strong className="text-blue-700 dark:text-blue-400 block mb-0.5">
+                          Cara Kerja:
+                        </strong>
+                        {job.caraKerja}
                       </span>
                     </div>
-                    <div className="flex items-start gap-2">
-                      <span className="mt-0.5 inline-block h-2 w-2 shrink-0 rounded-full bg-amber-500" />
-                      <span>
-                        <strong className="text-amber-700 dark:text-amber-400">
-                          Tantangan:
-                        </strong>{" "}
-                        {job.tantangan}
+                    <div className="flex items-start gap-2 bg-green-50 dark:bg-green-950/30 p-3 rounded-lg">
+                      <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-green-100 dark:bg-green-900 text-[10px] font-bold text-green-600 dark:text-green-300">
+                        2
+                      </span>
+                      <span className="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        <strong className="text-green-700 dark:text-green-400 block mb-0.5">
+                          Keuntungan:
+                        </strong>
+                        {job.keuntungan}
                       </span>
                     </div>
                   </CardContent>
